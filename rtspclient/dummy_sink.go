@@ -4,7 +4,7 @@ import (
 	"fmt"
 	sys "syscall"
 
-	"github.com/djwackey/dorsvr/livemedia"
+	"github.com/AlexandrGurkin/dorsvr/livemedia"
 )
 
 type DummySink struct {

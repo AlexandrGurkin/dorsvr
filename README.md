@@ -1,9 +1,9 @@
 Dorsvr Streaming Server
 =======================
 
-[![Build Status](https://travis-ci.org/djwackey/dorsvr.svg?branch=master)](https://travis-ci.org/djwackey/dorsvr)
-[![Go Report Card](https://goreportcard.com/badge/github.com/djwackey/dorsvr)](https://goreportcard.com/report/github.com/djwackey/dorsvr)
-[![GitHub issues](https://img.shields.io/github/issues/djwackey/dorsvr.svg)](https://github.com/djwackey/dorsvr/issues)
+[![Build Status](https://travis-ci.org/AlexandrGurkin/dorsvr.svg?branch=master)](https://travis-ci.org/AlexandrGurkin/dorsvr)
+[![Go Report Card](https://goreportcard.com/badge/github.com/AlexandrGurkin/dorsvr)](https://goreportcard.com/report/github.com/AlexandrGurkin/dorsvr)
+[![GitHub issues](https://img.shields.io/github/issues/AlexandrGurkin/dorsvr.svg)](https://github.com/AlexandrGurkin/dorsvr/issues)
 ## Modules
  * rtspserver - rtsp server
  * rtspclient - rtsp client
@@ -17,7 +17,7 @@ Dorsvr Streaming Server
  * Access Control
 
 ## Install
-    go get github.com/djwackey/dorsvr
+    go get github.com/AlexandrGurkin/dorsvr
 
 ## Format
     $ make fmt
@@ -30,7 +30,7 @@ Dorsvr Streaming Server
 import (
     "fmt"
 
-    "github.com/djwackey/dorsvr/rtspserver"
+    "github.com/AlexandrGurkin/dorsvr/rtspserver"
 )
 
 func main() {
@@ -61,7 +61,7 @@ func main() {
 }
 ```
 ## Author
-djwackey, worcy_kiddy@126.com
+AlexandrGurkin, worcy_kiddy@126.com
 
 ## LICENSE
-dorsvr is licensed under the GNU Lesser General Public License, Version 2.1. See [LICENSE](https://github.com/djwackey/dorsvr/blob/master/LICENSE) for the full license text.
+dorsvr is licensed under the GNU Lesser General Public License, Version 2.1. See [LICENSE](https://github.com/AlexandrGurkin/dorsvr/blob/master/LICENSE) for the full license text.

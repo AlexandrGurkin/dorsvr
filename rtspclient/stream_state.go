@@ -1,6 +1,6 @@
 package rtspclient
 
-import "github.com/djwackey/dorsvr/livemedia"
+import "github.com/AlexandrGurkin/dorsvr/livemedia"
 
 type StreamClientState struct {
 	Session    *livemedia.MediaSession
